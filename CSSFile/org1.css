@@ -1,0 +1,134 @@
+h1{
+	text-align: center;
+	font-family: cursive;
+	font-color:black;
+	margin:10px;
+	padding: 10px
+
+}
+
+*{
+box-sizing: border-box;
+background-color:#aabbcc;
+}
+
+.content
+{
+	background-color: black;
+	width:100%;
+	height: 100%;
+	background-color: grey;
+	font-family: helvetica;
+	margin:3%;
+}
+
+@media(min-width: 992px)
+{
+	.ChickenMx, .BeefMx, .SushiMx
+	{
+		font-family:cursive;
+		width:30%;
+		float: left;
+		margin:10px;
+		border:2px black solid;
+		background-color: grey;
+	}
+	.about{
+		border: 1px thick black;
+		position: relative;
+		float:right;
+		clear:both;
+		background-color: tomato;
+		padding: 3px;
+		margin: 0px;
+		border: 1px black solid;
+	}
+	.text{
+		position: relative;
+		float:left;
+		clear:both;
+		background-color: grey;
+		padding: auto;
+		margin:4px;
+	}
+
+}
+
+
+
+@media(min-width: 768px) and (max-width: 991px)
+{
+	.ChickenMx, .BeefMx
+	{
+
+		font-family:cursive;
+		width:45%;
+		float: left;
+		margin:10px;
+		border:2px black solid;
+		background-color: grey;
+	}
+
+	.SushiMx
+	{
+		font-family:cursive;
+		width:92.5%;
+		float: left;
+
+		margin:10px;
+		border:2px black solid;
+		background-color: grey;
+	}
+	.about{
+		border: 1px thick black;
+		position: relative;
+		float:right;
+		clear:both;
+		background-color: tomato;
+		padding: 3px;
+		border: 1px black solid;
+		margin:0px;
+	}
+	.text{
+		position: relative;
+		float:left;
+		clear:both;
+		background-color: grey;
+		padding:auto;
+		margin:4px;
+	}
+
+}
+
+
+@media(max-width:767px)
+{
+	.ChickenMx, .BeefMx, .SushiMx
+	{
+		font-family:cursive;
+		width:85%;
+		float: left;
+		margin:10px;
+		border:2px black solid;
+		background-color: grey;
+	}
+	.about{
+
+		position: relative;
+		float:right;
+		clear:both;
+		background-color: tomato;
+		padding: 3px;
+		border: 1px black solid;
+		margin:0px;
+	}
+	.text{
+		position: relative;
+		float:left;
+		clear:both;
+		background-color: grey;
+		padding: auto;
+		margin:4px;
+	}
+
+}
