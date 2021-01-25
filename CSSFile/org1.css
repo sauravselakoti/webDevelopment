@@ -2,7 +2,6 @@ h1{
 	text-align: center;
 	font-family: cursive;
 	font-color:black;
-	margin:10px;
 	padding: 10px
 
 }
@@ -15,7 +14,7 @@ background-color:#aabbcc;
 .content
 {
 	background-color: black;
-	width:100%;
+	width:97%;
 	height: 100%;
 	background-color: grey;
 	font-family: helvetica;
@@ -52,6 +51,20 @@ background-color:#aabbcc;
 		margin:4px;
 	}
 
+	.ChickenColor
+	{
+		background-color: #f0a0f0;
+	}
+
+	.SushiColor
+	{
+		background-color:#00aabb;
+	}
+
+	.BeefColor
+	{
+		background-color: #aaffdd;
+	}
 }
 
 
@@ -98,6 +111,20 @@ background-color:#aabbcc;
 		margin:4px;
 	}
 
+	.ChickenColor
+	{
+		background-color: #f0a0f0;
+	}
+
+	.SushiColor
+	{
+		background-color:#00aabb;
+	}
+
+	.BeefColor
+	{
+		background-color: #ffaadd;
+	}
 }
 
 
@@ -129,6 +156,21 @@ background-color:#aabbcc;
 		background-color: grey;
 		padding: auto;
 		margin:4px;
+	}
+
+	.ChickenColor
+	{
+		background-color: #f0a0f0;
+	}
+
+	.SushiColor
+	{
+		background-color:#00aabb;
+	}
+
+	.BeefColor
+	{
+		background-color: #ffaadd;
 	}
 
 }
